@@ -4,4 +4,4 @@ WORKDIR /usr/src/app
 COPY . /usr/src/app
 RUN npm install
 EXPOSE 3001
-CMD ["node","/usr/src/app/app.js"]
+CMD ["npm","start"]
