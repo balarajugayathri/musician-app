@@ -3,4 +3,4 @@ RUN mkdir -p /usr/src/app
 COPY . /usr/src/app
 RUN npm install
 EXPOSE 3001
-CMD ["node","app.js"]
+CMD ["node","/usr/src/app/app.js"]
